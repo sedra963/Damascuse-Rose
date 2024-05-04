@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowthKid Portfolio</title>
+    <style>
+        /* Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f3e7e4; /* Light pink background */
+            color: #392f5a; /* Purple text color */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Shadows Into Light', cursive;
+            color: #673ab7; /* Deep purple heading color */
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .disclaimer {
+            font-size: 0.8em;
+            color: #8e8e8e; /* Gray text color */
+            margin-top: 30px;
+        }
+
+        .nav {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #673ab7; /* Deep purple link color */
+            margin-left: 15px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GrowthKid Portfolio</h1>
+            <div class="nav">
+                <a href="#section0">A Bit About You</a>
+                <a href="#section1">Gain Balance and Clarity</a>
+                <a href="#section2">Setting Goals</a>
+                <a href="#section3">Build Consistency with Habits</a>
+                <a href="#section4">Daily Structure</a>
+                <a href="#section5">Reflection</a>
+            </div>
+        </header>
+        
+        <section id="section0">
+            <h2>A Letter From Some Weird Internet Fox</h2>
+            <!-- Content here -->
+        </section>
+
+        <section id="section1">
+            <h2>Gain Balance and Clarity</h2>
+            <!-- Content here -->
+        </section>
+
+        <section id="section2">
+            <h2>Setting Goals</h2>
+            <!-- Content here -->
+        </section>
+
+        <section id="section3">
+            <h2>Build Consistency with Habits</h2>
+            <!-- Content here -->
+        </section>
+
+        <section id="section4">
+            <h2>Putting Everything Together in Your Daily Structure</h2>
+            <!-- Content here -->
+        </section>
+
+        <section id="section5">
+            <h2>Please Reflect About the Entire Course</h2>
+            <!-- Content here -->
+        </section>
+
+        <footer>
+            <div class="disclaimer">
+                DISCLAIMER & HANDY LINKS
+            </div>
+            <!-- Handy links here -->
+        </footer>
+    </div>
+</body>
+</html>
