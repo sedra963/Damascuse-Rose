@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damascus Rose - Modest Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Damascus Rose</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to Damascus Rose</h2>
+                <p>We offer a beautiful selection of modest clothing in various styles and colors.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae dui luctus, at fermentum neque mollis.</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product">
+                    <h3>Design 1</h3>
+                    <p>Available in dusty pink, pearl, lavender, and sage</p>
+                    <img src="design1.jpg" alt="Design 1">
+                </div>
+                <div class="product">
+                    <h3>Design 2</h3>
+                    <p>Available in blush and champagne</p>
+                    <img src="design2.jpg" alt="Design 2">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Email: info@damascusrose.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Damascus Rose</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
